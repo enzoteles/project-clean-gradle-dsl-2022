@@ -1,6 +1,7 @@
 plugins {
     id (BuildPlugins.androidApplication)
     kotlin (BuildPlugins.kotlinAndroid)
+    id (BuildPlugins.navigationSafeArgs)
 }
 
 android {

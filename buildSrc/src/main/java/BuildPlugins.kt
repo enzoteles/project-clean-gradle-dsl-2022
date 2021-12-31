@@ -1,9 +1,9 @@
 object BuildPlugins {
 
     private object Versions {
-        const val buildTools = "4.0.1"
+        const val buildTools = "7.0.4"
         const val googleServicesVersion = "4.3.3"
-        const val navigation = "2.1.0"
+        const val navigation = "2.3.5"
     }
 
     const val androidGradlePlugin               = "com.android.tools.build:gradle:${Versions.buildTools}"
