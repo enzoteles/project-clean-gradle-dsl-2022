@@ -35,11 +35,14 @@ android {
 
 dependencies {
 
-    implementation (Libraries.ktxCore)
-    implementation (Libraries.appCompat)
-    implementation (Libraries.googleMaterial)
+    implementation (Libraries.kotlinStdLib)
 
-    testImplementation (TestLibraries.junit4)
-    testImplementation (TestLibraries.extJunit)
-    testImplementation (TestLibraries.espresso)
+    //Retrofit
+    implementation (Libraries.retrofit)
+    implementation (Libraries.retrofitGson)
+    implementation (Libraries.retrofitRx)
+    //RxAndroid
+    implementation (Libraries.rxjava)
+    implementation (Libraries.rxandroid)
+    implementation (Libraries.rxkotlin)
 }
