@@ -15,6 +15,7 @@ android {
         consumerProguardFiles(AndroidSdk.consumerProguardFiles)
 
         buildConfigField("String", "MOVIE_RICK_AND_MORT", "\"https://api.themoviedb.org/\"")
+        buildConfigField("String", "API_KEY", "\"398e535cd4549b5f8c05207c0ebd8106\"")
 
     }
 
@@ -39,7 +40,8 @@ android {
 dependencies {
 
     implementation (Libraries.kotlinStdLib)
-
+    //Module Commons
+    implementation(project(BuildModules.COMMONS))
     //Retrofit
     implementation (Libraries.retrofit)
     implementation (Libraries.retrofitGson)
