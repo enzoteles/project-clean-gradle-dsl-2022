@@ -13,6 +13,9 @@ android {
 
         testInstrumentationRunner = (AndroidSdk.testInstrumentationRunner)
         consumerProguardFiles(AndroidSdk.consumerProguardFiles)
+
+        buildConfigField("String", "MOVIE_RICK_AND_MORT", "\"https://api.themoviedb.org/\"")
+
     }
 
     buildTypes {
