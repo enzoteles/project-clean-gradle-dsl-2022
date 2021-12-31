@@ -46,6 +46,11 @@ dependencies {
     testImplementation (TestLibraries.extJunit)
     testImplementation (TestLibraries.espresso)
 
+    //Module Core
+    implementation(project(BuildModules.CORE))
+    //Module Commons
+    implementation(project(BuildModules.COMMONS))
+
     //Retrofit
     implementation (Libraries.retrofit)
     implementation (Libraries.retrofitGson)
