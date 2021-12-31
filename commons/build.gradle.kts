@@ -16,6 +16,10 @@ android {
         consumerProguardFiles(AndroidSdk.consumerProguardFiles)
     }
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     buildTypes {
         getByName("release"){
             isMinifyEnabled = false
@@ -43,4 +47,11 @@ dependencies {
     testImplementation (TestLibraries.junit4)
     testImplementation (TestLibraries.extJunit)
     testImplementation (TestLibraries.espresso)
+
+    //Picasso
+    implementation (Libraries.picasso)
+    //Retrofit
+    implementation (Libraries.retrofit)
+    implementation (Libraries.retrofitGson)
+    implementation (Libraries.retrofitRx)
 }

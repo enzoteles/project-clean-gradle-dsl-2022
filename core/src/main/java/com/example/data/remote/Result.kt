@@ -1,7 +1,7 @@
 package com.example.data.remote
 
 import com.example.domain.model.ResultMapper
-import com.example.utilities.DateTimeHelper
+import com.example.utilities.date.DateTimeHelper
 import com.example.utilities.toPtBrRealString
 
 data class Result(

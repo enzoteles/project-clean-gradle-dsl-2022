@@ -1,4 +1,4 @@
-package com.example.utilities
+package com.example.utilities.date
 
 import java.text.SimpleDateFormat
 import java.util.*

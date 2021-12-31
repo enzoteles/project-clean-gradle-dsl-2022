@@ -1,4 +1,4 @@
-package com.example.utilities
+package com.example.utilities.date
 
 enum class DaysOfWeek(val day: String) {
     MONDAY("MONDAY"),

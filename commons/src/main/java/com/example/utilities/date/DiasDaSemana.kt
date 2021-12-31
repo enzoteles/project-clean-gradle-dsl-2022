@@ -1,4 +1,4 @@
-package com.example.utilities
+package com.example.utilities.date
 
 enum class DiasDaSemana(val dia: String) {
     SEGUNDA("Segunda-feira"),

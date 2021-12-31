@@ -46,8 +46,10 @@ dependencies {
     implementation (Libraries.retrofit)
     implementation (Libraries.retrofitGson)
     implementation (Libraries.retrofitRx)
+    implementation (Libraries.okHttpInteceptor)
     //RxAndroid
     implementation (Libraries.rxjava)
     implementation (Libraries.rxandroid)
     implementation (Libraries.rxkotlin)
+
 }
