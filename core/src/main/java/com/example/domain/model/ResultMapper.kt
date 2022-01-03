@@ -1,5 +1,9 @@
 package com.example.domain.model
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class ResultMapper(
     val id: Int,
     val title: String,
@@ -9,4 +13,4 @@ data class ResultMapper(
     val vote_average: String,
     val poster_path: String,
     val backdrop_path: String
-)
+): Parcelable

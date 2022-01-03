@@ -20,7 +20,7 @@ class DetailFragment : BaseFragment<DefaultViewModel, FragmentDetailBinding>() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
-            result = it.getSerializable(MOVIE_POPULAR) as ResultMapper
+            result = it.getParcelable(MOVIE_POPULAR)
         }
     }
 

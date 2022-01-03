@@ -14,6 +14,7 @@ object BuildPlugins {
     const val androidLibrary                    = "com.android.library"
     const val kotlinLibrary                     = "kotlin"
     const val kotlinAndroid                     = "android"
+    const val kotlinParcelize                   = "kotlin-parcelize"
     const val kotlinKapt                        = "kotlin-kapt"
     const val navigationSafeArgs                = "androidx.navigation.safeargs.kotlin"
 

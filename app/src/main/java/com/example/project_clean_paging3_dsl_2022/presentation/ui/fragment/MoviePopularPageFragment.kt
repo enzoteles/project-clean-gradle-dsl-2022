@@ -3,6 +3,7 @@ package com.example.project_clean_paging3_dsl_2022.presentation.ui.fragment
 import android.os.Handler
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.paging.PagingData
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.base.BaseFragment
@@ -40,7 +41,7 @@ class MoviePopularPageFragment : BaseFragment<MoviePopularPageViewModel, MoviePo
             layoutManager = LinearLayoutManager(requireContext())
             movieAdapter = MoviePopularAdapter(OnClickListener{ resultMapper ->
                 resultMapper?.let {
-                    //findNavController().navigate(MoviePopularPageFragmentDirections.actionMoviePopularPageFragmentToDetailFragment(it))
+                    findNavController().navigate(MoviePopularPageFragmentDirections.actionMoviePopularPageFragmentToDetailFragment(it))
                 }
             })
             adapter = movieAdapter

@@ -20,5 +20,8 @@
         android:name="com.example.project_clean_paging3_dsl_2022.presentation.ui.fragment.DetailFragment"
         tools:layout="@layout/fragment_detail"
         android:label="DetailFragment" >
+        <argument
+            android:name="MOVIE_POPULAR"
+            app:argType="com.example.domain.model.ResultMapper" />
     </fragment>
 </navigation>

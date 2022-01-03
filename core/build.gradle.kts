@@ -1,6 +1,7 @@
 plugins {
     id (BuildPlugins.androidLibrary)
     kotlin (BuildPlugins.kotlinAndroid)
+    id (BuildPlugins.kotlinParcelize)
 }
 
 android {
