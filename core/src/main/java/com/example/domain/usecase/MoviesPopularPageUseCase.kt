@@ -1,4 +1,4 @@
-package com.example.project_clean_paging3_dsl_2022.presentation.ui.viewmodel
+package com.example.domain.usecase
 
 import androidx.paging.PagingData
 import io.reactivex.Flowable

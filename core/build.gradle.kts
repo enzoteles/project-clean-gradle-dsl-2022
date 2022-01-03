@@ -51,5 +51,8 @@ dependencies {
     implementation (Libraries.rxjava)
     implementation (Libraries.rxandroid)
     implementation (Libraries.rxkotlin)
+    //Paging
+    implementation (Libraries.pagingRuntime)
+    implementation (Libraries.pagingRx)
 
 }

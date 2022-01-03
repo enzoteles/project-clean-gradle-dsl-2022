@@ -1,11 +1,11 @@
-package com.example.project_clean_paging3_dsl_2022.presentation.ui.viewmodel
+package com.example.domain.repository
 
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import androidx.paging.rxjava2.flowable
+import com.example.data.datasource.MoviesPopularSource
 import com.example.data.remote.Result
-import com.example.project_clean_paging3_dsl_2022.presentation.ui.paging.MoviesPopularSource
 import io.reactivex.Flowable
 
 class MoviePopularPageRepositoryImpl(

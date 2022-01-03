@@ -9,6 +9,7 @@ import com.example.components.ApiResponse
 import com.example.components.SinglePagingLiveEvent
 import com.example.convertErrorApi
 import com.example.domain.model.ResultMapper
+import com.example.domain.usecase.MoviesPopularPageUseCase
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
