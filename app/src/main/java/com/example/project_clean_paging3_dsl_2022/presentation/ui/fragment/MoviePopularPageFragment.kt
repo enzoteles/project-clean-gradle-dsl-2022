@@ -19,12 +19,10 @@ import kotlinx.coroutines.ExperimentalCoroutinesApi
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 
-private const val MOVIE_POPULAR = "MOVIE_POPULAR"
 @ExperimentalCoroutinesApi
 class MoviePopularPageFragment : BaseFragment<MoviePopularPageViewModel, MoviePopularPageFragmentBinding>() {
 
     lateinit var movieAdapter: MoviePopularAdapter
-    lateinit var fragmentStatus: String
 
     override fun getViewModel(): MoviePopularPageViewModel {
         val moviePopularVM : MoviePopularPageViewModel by viewModel()

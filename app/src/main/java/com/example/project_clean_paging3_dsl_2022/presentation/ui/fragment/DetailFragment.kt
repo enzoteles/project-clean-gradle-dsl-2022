@@ -44,11 +44,13 @@ class DetailFragment : BaseFragment<DefaultViewModel, FragmentDetailBinding>() {
             view.tvDateValue.text = result?.release_date
             view.tValor.text = result?.vote_average
             view.tvOverviewValue.text = result?.overview
+            view.btnLeft.setOnClickListener {
+                requireActivity().onBackPressed()
+            }
 
             ImageUtils.loadImage(view.tvImage, result?.backdrop_path, R.drawable.ic_placeholder)
 
         }
     }
-
 
 }
