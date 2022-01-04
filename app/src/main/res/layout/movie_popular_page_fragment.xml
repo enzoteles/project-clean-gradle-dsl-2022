@@ -22,7 +22,7 @@
             android:textSize="24sp"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:text="Fragment title"/>
+            android:text="Tela de Home"/>
 
     </androidx.appcompat.widget.Toolbar>
 
